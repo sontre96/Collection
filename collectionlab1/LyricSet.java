@@ -1,7 +1,7 @@
+package com.example3.UsingSet;
+
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class LyricSet {
 
@@ -12,9 +12,9 @@ public class LyricSet {
         //Create a set from HashSet that's implemented Set
         Set words = new HashSet();
         //Add all words to set
-        for (String w : lyric)
+        for (String w : lyric) 
             words.add(w);
-
+        
         //Traverse the list
         //NOTICE: set doesn't allow duplicate items
         for (Object o : words)
@@ -25,5 +25,5 @@ public class LyricSet {
         System.out.println("Contains [me]?:" + words.contains("me"));
 
     }
-
+    
 }

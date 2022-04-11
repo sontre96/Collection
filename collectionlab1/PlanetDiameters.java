@@ -1,13 +1,15 @@
+package com.example3.UsingMap;
+
 import java.util.*;
 
 public class PlanetDiameters {
     //array of planets' name
     private static final String[] names = {"Mercury", "Venus", "Earth",
-            "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"};
+    "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"};
 
     //Array of planets' diameter
     private static final float[] diameters = {4800f, 12103.6f, 12756.3f,
-            6794f, 142984f, 120536f, 51118f, 49532f, 2274f};
+    6794f, 142984f, 120536f, 51118f, 49532f, 2274f};
 
     public static void main(String[] args) {
         //Use Map to store planet's names and their corresponding
